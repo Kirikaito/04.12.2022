@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-    int flag = 0,t;
     vector<int> a = {1,3,3,5,6,7,9,10},b = {2,3,4,7,8,10,11},summ,comb,diff;
     for(int i = 0; i < b.size();i++){
         summ.push_back(b[i]);
